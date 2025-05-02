@@ -14,4 +14,4 @@ Language Used:
 PHP, HTML, CSS and MySQL
 
 EER Diagram: 
-Click here: https://drive.google.com/file/d/1Qk5c6RXg-hcQl-tyUo43D5ksvXQwEgiJ/view?usp=drive_link
+Click [here](https://drive.google.com/file/d/1Qk5c6RXg-hcQl-tyUo43D5ksvXQwEgiJ/view?usp=drive_link)
