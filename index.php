@@ -17,7 +17,7 @@
     <!-- following section is used for creating the menubar in the webpage -->
 	<section id="header">
 		<div class="row">  
-			<div class="col-md-2" style="font-size: 30px;color:#F2674A;"> ResearchVerse </div>
+			<div class="col-md-2" style="font-size: 30px;color:#F2674A;"> SIRO NAKI ROSI??? </div>
 			<div class="col-md-10" style="text-align: right"> 
 				<a href="#"> Home </a> 
 				<a href="#" style="margin-left: 20px;"> Researchers </a> 
