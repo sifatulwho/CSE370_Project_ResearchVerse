@@ -1,6 +1,6 @@
-# ResearchVerse [CSE370 Project]
+# **ResearchVerse [CSE370 Project]**
 
-Main Features:
+**Main Features:**
 
 * peer finding based on research interest
 * collab request
@@ -10,8 +10,10 @@ Main Features:
 * wishlist
 * progress tracker 
 
-Language Used:
-PHP, HTML, CSS and MySQL
+**Language Used:**
+* Frontend: HTML, CSS 
+* Backend: PHP
+* Database: MySQL
 
-EER Diagram: 
+**EER Diagram:**
 Click [here](https://drive.google.com/file/d/1Qk5c6RXg-hcQl-tyUo43D5ksvXQwEgiJ/view?usp=drive_link)
