@@ -2,13 +2,13 @@
 
 Main Features:
 
--peer finding based on research interest
--collab request
--Take appointment + paper review (advisor/expert)
--upload resources for beginners (published conference papers, upcoming conferences etc.) 
--Community
--wishlist
--progress tracker 
+* peer finding based on research interest
+* collab request
+* Take appointment + paper review (advisor/expert)
+* upload resources for beginners (published conference papers, upcoming conferences etc.) 
+* Community
+* wishlist
+* progress tracker 
 
 Language Used:
 PHP, HTML, CSS and MySQL
