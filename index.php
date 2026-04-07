@@ -1,50 +1,63 @@
-<html lang="en">
-  <head>
-      <meta charset="utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <meta name="description" content="About the site"/>
-      <meta name="author" content="Author name"/>
-      <title> ResearchVerse </title>
-    
-      <!-- core CSS -->
-      <link href="css/bootstrap.min.css" rel="stylesheet"/>
-      <link href="css/font-awesome.min.css" rel="stylesheet"/>
-      <link href="css/animate.min.css" rel="stylesheet"/>
-      <link href="css/main.css" rel="stylesheet"/> 
-  </head>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <style>
+    body {
+      background-image: url('image/indeximage.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
 
-  <body> 
-    <!-- following section is used for creating the menubar in the webpage -->
-	<section id="header">
-		<div class="row">  
-			<div class="col-md-2" style="font-size: 30px;color:#F2674A;"> SIRO NAKI ROSI??? </div>
-			<div class="col-md-10" style="text-align: right"> 
-				<a href="#"> Home </a> 
-				<a href="#" style="margin-left: 20px;"> Researchers </a> 
-				<a href="#" style="margin-left: 20px;"> Advisors  </a> 
-			</div>
-		</div>
-	</section>
-	
-	<section id = "section1">
-		<div class="title"> SIGN IN </div>
-		
-		<form action="signin.php" class="form_design" method="post">
-			Email: <input type="text" name="fname"> <br/>
-			Password: <input type="password" name="pass"> <br/> <br/>
-			<input type="submit" value="Sign In">
-		</form>
-	</section>
+    .center-content {
+      text-align: center;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 40px;
+      border-radius: 12px;
+    }
 
-	
-	<!----- Footer ----->
-	<section id="footer"> 
-	
-	</section>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/wow.min.js"></script>
-  </body> 
+    .center-content h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .center-content p {
+      margin: 10px 0 20px;
+      font-size: 1.2em;
+    }
+
+    .auth-buttons a {
+      background-color: #b835a0;
+      color: #000000;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-family: cursive;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .auth-buttons a:hover {
+      background-color: #611d50;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-content">
+
+    <div class="auth-buttons">
+      <a href="signin.php">Kick off the quest</a>
+    </div>
+  </div>
+</body>
 </html>
 

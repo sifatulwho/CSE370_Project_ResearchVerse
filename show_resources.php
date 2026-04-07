@@ -1,4 +1,4 @@
-?php
+<?php
 session_start();
 $conn = new mysqli("localhost", "root", "", "researchverse");
 
@@ -10,6 +10,7 @@ $query = "
 
 $resources = $conn->query($query);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
